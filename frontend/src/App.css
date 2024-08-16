@@ -1,0 +1,37 @@
+body{
+ background-color: #202222;
+}
+
+.input-group{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+}
+         
+.btn-grad {
+  background-image: linear-gradient(to right, #c21500 0%, #ffc500  51%, #c21500  100%);
+  padding: 10px;
+  text-align: center;
+  font-weight: 700;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  border: 0px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.image:hover{
+  box-shadow: 0 0 20px #00eeff;
+}
